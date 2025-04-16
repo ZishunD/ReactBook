@@ -8,11 +8,17 @@ function App() {
   const [books, setBooks] = useState(booksData);
 
   const handleSearch = (term) => {
-    const filteredBooks = booksData.filter((book) =>
-      book.title.toLowerCase().includes(term.toLowerCase())
-    );
+    const filteredBooks = booksData.filter((book) => {
+      const lowerTerm = term.toLowerCase();
+      return (
+        book.title.toLowerCase().includes(lowerTerm) ||
+        book.author.toLowerCase().includes(lowerTerm) ||
+        book.genre.toLowerCase().includes(lowerTerm)
+      );
+    });
     setBooks(filteredBooks);
   };
+
 
   return (
     <div className="container mx-auto p-4">
