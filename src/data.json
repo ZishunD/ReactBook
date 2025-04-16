@@ -1,0 +1,17 @@
+[
+  { "id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "genre": "Fiction" },
+  { "id": 2, "title": "To Kill a Mockingbird", "author": "Harper Lee", "genre": "Fiction" },
+  { "id": 3, "title": "1984", "author": "George Orwell", "genre": "Dystopian" },
+  { "id": 4, "title": "Pride and Prejudice", "author": "Jane Austen", "genre": "Romance" },
+  { "id": 5, "title": "The Catcher in the Rye", "author": "J.D. Salinger", "genre": "Fiction" },
+  { "id": 6, "title": "The Hobbit", "author": "J.R.R. Tolkien", "genre": "Fantasy" },
+  { "id": 7, "title": "Brave New World", "author": "Aldous Huxley", "genre": "Science Fiction" },
+  { "id": 8, "title": "The Alchemist", "author": "Paulo Coelho", "genre": "Adventure" },
+  { "id": 9, "title": "Moby Dick", "author": "Herman Melville", "genre": "Classic" },
+  { "id": 10, "title": "The Lord of the Rings", "author": "J.R.R. Tolkien", "genre": "Fantasy" },
+  { "id": 11, "title": "Jane Eyre", "author": "Charlotte Brontë", "genre": "Gothic" },
+  { "id": 12, "title": "Animal Farm", "author": "George Orwell", "genre": "Political Satire" },
+  { "id": 13, "title": "The Fault in Our Stars", "author": "John Green", "genre": "Young Adult" },
+  { "id": 14, "title": "The Shining", "author": "Stephen King", "genre": "Horror" },
+  { "id": 15, "title": "The Book Thief", "author": "Markus Zusak", "genre": "Historical Fiction" }
+]
